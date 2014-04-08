@@ -7,8 +7,11 @@ var sgn = require("permutation-parity")
 var gamma = require("gamma")
 
 function triangulateCube(dimension) {
-  if(dimension <= 0) {
+  if(dimension < 0) {
     return [ ]
+  }
+  if(dimension === 0) {
+    return [ [0] ]
   }
   var dfactorial = gamma(dimension+1)|0
   var result = []

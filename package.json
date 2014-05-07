@@ -1,6 +1,6 @@
 {
   "name": "triangulate-hypercube",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Triangulates a hypercube into simplices",
   "main": "triangulate-cube.js",
   "directories": {
@@ -8,8 +8,8 @@
   },
   "dependencies": {
     "gamma": "^0.1.0",
-    "permutation-rank": "^0.1.1",
-    "permutation-parity": "^0.0.1"
+    "permutation-rank": "^1.0.0",
+    "permutation-parity": "^1.0.0"
   },
   "devDependencies": {
     "tape": "~2.12.3"

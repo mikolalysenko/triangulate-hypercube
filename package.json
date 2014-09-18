@@ -1,6 +1,6 @@
 {
   "name": "triangulate-hypercube",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Triangulates a hypercube into simplices",
   "main": "triangulate-cube.js",
   "directories": {

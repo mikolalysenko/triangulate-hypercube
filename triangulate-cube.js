@@ -13,7 +13,7 @@ function triangulateCube(dimension) {
   if(dimension === 0) {
     return [ [0] ]
   }
-  var dfactorial = gamma(dimension+1)|0
+  var dfactorial = Math.round(gamma(dimension+1))|0
   var result = []
   for(var i=0; i<dfactorial; ++i) {
     var p = perm.unrank(dimension, i)
